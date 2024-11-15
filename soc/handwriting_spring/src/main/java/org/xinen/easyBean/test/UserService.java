@@ -1,4 +1,4 @@
-package org.xinen.test;
+package org.xinen.easyBean.test;
 
 public class UserService {
     public void queryUserInfo(){

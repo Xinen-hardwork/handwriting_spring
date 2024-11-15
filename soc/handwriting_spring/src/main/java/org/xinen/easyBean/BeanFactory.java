@@ -1,4 +1,4 @@
-package org.xinen;
+package org.xinen.easyBean;
 
 /*
  * BeanFactory 生成和使用Bean对象的工厂，将Bean对象的定义存储到Map中以便获取

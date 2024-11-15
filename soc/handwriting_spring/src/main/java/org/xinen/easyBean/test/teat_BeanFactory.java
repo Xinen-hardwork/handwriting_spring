@@ -1,8 +1,8 @@
-package org.xinen.test;
+package org.xinen.easyBean.test;
 
 import org.junit.Test;
-import org.xinen.BeanDefinition;
-import org.xinen.BeanFactory;
+import org.xinen.easyBean.BeanDefinition;
+import org.xinen.easyBean.BeanFactory;
 
 public class teat_BeanFactory {
 

@@ -1,0 +1,60 @@
+@startuml
+
+interface BeanFactory{
++ getBean(String name)
++ getBean(String name, Object ... args)
+}
+
+class AbstractBeanFactory{
++ getBean(String name)
+# getBeanDefinition(String name)
+# createBean(String beanName, BeanDefinition beanDefinition)
+}
+
+class AbstractAutowireCapableBeanFactory{
+# createBean(String beanName, BeanDefinition beanDefinition, Object[] args)
+}
+
+interface SingletBeanRegistry{
++ getSingleton(String beanName)
+}
+
+class DefaultSingletonBeanRegistry{
+- singletonObjects:Map<String,Object>
++ getSingleton(String beanName)
+# addSingleton(String beanName, Object singletObject)
+}
+
+
+class DefaultListableBeanFactory{
+- beanDefinitionMap:Map<String, BeanDefinition>
++ registerBeanDefinition(String beanName,BeanDefinition beandefinition)
++ getBeanDefinition(String beanName)
+}
+
+interface InstantiationStrategy{
++ instantiate(BeanDefinition beanDefinition, String beanName, Constructor ctor, Object[] args)
+}
+
+class SimpleInstantiationStrategy{
++ instantiate(BeanDefinition beanDefinition, String beanName, Constructor ctor, Object[] args)
+}
+
+class CglibSubclassingInstantiationStrategy{
++ instantiate(BeanDefinition beanDefinition, String beanName, Constructor ctor, Object[] args)
+}
+
+
+AbstractBeanFactory --> BeanFactory
+AbstractAutowireCapableBeanFactory --> AbstractBeanFactory
+DefaultListableBeanFactory --> AbstractAutowireCapableBeanFactory
+DefaultSingletonBeanRegistry --> SingletBeanRegistry
+AbstractBeanFactory --> DefaultSingletonBeanRegistry
+AbstractAutowireCapableBeanFactory --> InstantiationStrategy
+InstantiationStrategy --> SimpleInstantiationStrategy
+InstantiationStrategy --> CglibSubclassingInstantiationStrategy
+
+
+
+
+@enduml

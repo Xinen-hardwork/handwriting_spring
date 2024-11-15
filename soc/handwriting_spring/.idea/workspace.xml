@@ -4,8 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65ef794d-a802-48f9-851e-1693d3781df4" name="更改" comment="">
+    <list default="true" id="65ef794d-a802-48f9-851e-1693d3781df4" name="更改" comment="creat source code">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/improveBean/BeansException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/improveBean/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/improveBean/factory/config/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/improveBean/factory/config/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/improveBean/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/improveBean/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/improveBean/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/improveBean/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/improveBean/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/improveBean/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/improveBean/test/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/BeansException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/factory/config/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/factory/config/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/factory/support/InstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/proxy/test/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/u" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../doc/1IOC容器.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../doc/1IOC容器.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/easyBean/BeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/easyBean/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/test/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/easyBean/test/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/test/teat_BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/easyBean/test/teat_BeanFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +48,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,12 +76,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ApiTest.test1 (1).executor": "Run",
+    "JUnit.ApiTest.test1.executor": "Run",
     "JUnit.teat_BeanFactory.test1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/xinen/Desktop/厦大JavaEEPlatform/code",
+    "last_opened_file_path": "E:/books/handwriting_spring/doc/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,17 +96,54 @@
     "应用程序.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\books\handwriting_spring\soc\handwriting_spring\src\main\java\org\xinen\proxy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiTest.test1 (1)">
+    <configuration name="ApiTest.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="handwriting_spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.xinen.proxy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.xinen.proxy.test" />
+      <option name="MAIN_CLASS_NAME" value="org.xinen.proxy.test.ApiTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="handwriting_spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.xinen.improveBean.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.xinen.improveBean.test" />
+      <option name="MAIN_CLASS_NAME" value="org.xinen.improveBean.test.ApiTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="teat_BeanFactory.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="handwriting_spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.xinen.test.*" />
+          <option name="PATTERN" value="org.xinen.easyBean.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.xinen.test" />
-      <option name="MAIN_CLASS_NAME" value="org.xinen.test.teat_BeanFactory" />
+      <option name="MAIN_CLASS_NAME" value="org.xinen.easyBean.test.teat_BeanFactory" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -78,6 +152,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test1 (1)" />
+        <item itemvalue="JUnit.ApiTest.test1" />
         <item itemvalue="JUnit.teat_BeanFactory.test1" />
       </list>
     </recent_temporary>
@@ -90,11 +166,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731660497588</updated>
-      <workItem from="1731660499126" duration="2799000" />
+      <workItem from="1731660499126" duration="19030000" />
     </task>
+    <task id="LOCAL-00001" summary="creat source code">
+      <option name="closed" value="true" />
+      <created>1731663373774</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731663373774</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creat source code" />
+    <option name="LAST_COMMIT_MESSAGE" value="creat source code" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

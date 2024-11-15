@@ -20,6 +20,7 @@
                 <artifactId>junit</artifactId>
                 <version>4.13.2</version>
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -30,6 +31,8 @@
             <artifactId>cglib</artifactId>
             <version>3.3.0</version>
         </dependency>
+=======
+>>>>>>> 9e3c0f5e3337882b53d824a56401508cd4cf0892
     </dependencies>
 
 </project>

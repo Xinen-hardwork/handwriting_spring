@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="65ef794d-a802-48f9-851e-1693d3781df4" name="更改" comment="creat source code">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/improveBean/BeansException.java" afterDir="false" />
@@ -39,6 +40,19 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/easyBean/BeanFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/test/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/easyBean/test/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/test/teat_BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/easyBean/test/teat_BeanFactory.java" afterDir="false" />
+=======
+    <list default="true" id="65ef794d-a802-48f9-851e-1693d3781df4" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/test/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/test/teat_BeanFactory.java" afterDir="false" />
+>>>>>>> 9e3c0f5e3337882b53d824a56401508cd4cf0892
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +62,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="Interface" />
+=======
+>>>>>>> 9e3c0f5e3337882b53d824a56401508cd4cf0892
         <option value="Class" />
       </list>
     </option>
@@ -76,6 +93,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
     "JUnit.ApiTest.test1 (1).executor": "Run",
     "JUnit.ApiTest.test1.executor": "Run",
     "JUnit.teat_BeanFactory.test1.executor": "Run",
@@ -85,17 +103,30 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/books/handwriting_spring/doc/img",
+=======
+    "JUnit.teat_BeanFactory.test1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/xinen/Desktop/厦大JavaEEPlatform/code",
+>>>>>>> 9e3c0f5e3337882b53d824a56401508cd4cf0892
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/books/handwriting_spring/soc/handwriting_spring/src/main/java/org/xinen/Main.java",
+<<<<<<< HEAD
     "settings.editor.selected.configurable": "Code Search",
+=======
+    "settings.editor.selected.configurable": "MavenSettings",
+>>>>>>> 9e3c0f5e3337882b53d824a56401508cd4cf0892
     "vue.rearranger.settings.migration": "true",
     "应用程序.Main.executor": "Run"
   }
 }]]></component>
+<<<<<<< HEAD
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\books\handwriting_spring\soc\handwriting_spring\src\main\java\org\xinen\proxy" />
@@ -134,16 +165,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+  <component name="RunManager">
+>>>>>>> 9e3c0f5e3337882b53d824a56401508cd4cf0892
     <configuration name="teat_BeanFactory.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="handwriting_spring" />
       <extension name="coverage">
         <pattern>
+<<<<<<< HEAD
           <option name="PATTERN" value="org.xinen.easyBean.test.*" />
+=======
+          <option name="PATTERN" value="org.xinen.test.*" />
+>>>>>>> 9e3c0f5e3337882b53d824a56401508cd4cf0892
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.xinen.test" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="org.xinen.easyBean.test.teat_BeanFactory" />
+=======
+      <option name="MAIN_CLASS_NAME" value="org.xinen.test.teat_BeanFactory" />
+>>>>>>> 9e3c0f5e3337882b53d824a56401508cd4cf0892
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -152,8 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.ApiTest.test1 (1)" />
         <item itemvalue="JUnit.ApiTest.test1" />
+=======
+>>>>>>> 9e3c0f5e3337882b53d824a56401508cd4cf0892
         <item itemvalue="JUnit.teat_BeanFactory.test1" />
       </list>
     </recent_temporary>
@@ -166,6 +211,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731660497588</updated>
+<<<<<<< HEAD
       <workItem from="1731660499126" duration="19030000" />
     </task>
     <task id="LOCAL-00001" summary="creat source code">
@@ -177,11 +223,16 @@
       <updated>1731663373774</updated>
     </task>
     <option name="localTasksCounter" value="2" />
+=======
+      <workItem from="1731660499126" duration="2119000" />
+    </task>
+>>>>>>> 9e3c0f5e3337882b53d824a56401508cd4cf0892
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creat source code" />
     <option name="LAST_COMMIT_MESSAGE" value="creat source code" />
@@ -190,4 +241,6 @@
     <expand />
     <select />
   </component>
+=======
+>>>>>>> 9e3c0f5e3337882b53d824a56401508cd4cf0892
 </project>

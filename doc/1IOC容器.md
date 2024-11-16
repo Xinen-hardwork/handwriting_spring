@@ -10,7 +10,7 @@
 
 + 实现简单的spring bean容器需要完成Bean对象的定义注册和获取三个部分
 
-  ![E:\books\handwriting_spring\doc\img](E:\books\handwriting_spring\doc\img\uml1.png "简单SpringBean容器的UML类图")
+   ![](img/uml1.png)
 
   + BeanDefinition  定义Bean对象，以一个Object类型存储对象
 
@@ -101,7 +101,7 @@
 
 + 获取bean对象的时候进行实例化，以及判断bean对象是否已经存在
 
-  ![E:\books\handwriting_spring\doc\img](E:\books\handwriting_spring\doc\img\uml2.png "完善后的uml类图")
+  ![](assets/uml2.png)
 
   + BeanFactory  是通过AbstractBeanFactory抽象类实现的getBean方法来定义
 
@@ -212,7 +212,7 @@
 
 + 在上个版本中添加 InstantiationStrategy 实例化策略接口、开发对应的JDK和Cglib实例化方法，补充带参数的getBean()构造函数
 
-  ![E:\books\handwriting_spring\doc\img](E:\books\handwriting_spring\doc\img\uml3.png "添加 InstantiationStrategy 实例化策略接口后的uml类图")
+  ![](assets/uml3.png)
 
   + 在BeanFactory类中新增 getBean()接口
 
@@ -231,7 +231,6 @@
         Object instantiate(BeanDefinition beanDefinition, String beanName, Constructor ctor, Object[] args)throws BeansException;
     }
     ```
-    
 
   + JDK 实例化
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="userDao" class="org.xinen.ResourceLoader.test.UserDao"/>
+
+    <bean id="userService" class="org.xinen.ResourceLoader.test.UserService">
+        <property name="uId" value="10001"/>
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+</beans>

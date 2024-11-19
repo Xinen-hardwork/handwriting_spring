@@ -1,39 +1,34 @@
 @startuml
 
-class PropertyValue{
-- name: String
-- value: Object
+class BeanFactory{
+- beanDefinitionMap: Map<String, BeanDefinition>
++ getBean(String name)
+- registerBeanDefinition(String name, BeanDefinition beanDefinition)
 }
 
-
-class PropertyValues{
-- propertyValueList: List<PropertyValue>
-+ addPropertyValue(PropertyValue pv)
-+ getPropertyValues()
+interface ListableBeanFactory{
++ getBeansOfType(Class<T> type)
++ getBeanDefinitionNames()
 }
 
-class BeanDefinition{
-- beanClass: Class
-- propertyValues: PropertyValues
+Interface HierarchicalBeanFactory{}
+
+Interface AutowireCapableBeanFactory{}
+
+Interface ConfigurableBeanFactory{
+- SCOPE_SINGLETON: String
+- SCOPE_PROTOTYPE: String
 }
 
-
-PropertyValues --> PropertyValue:依赖
-BeanDefinition --> PropertyValues:依赖
-
-class BeanReference{
-- beanName: String
-+ getBeanName()
+Interface ConfigurableListableBeanFactory{
++ getBeanDefinition(String beanName)
 }
 
-BeanReference -- BeanDefinition
-
-class AbstractAutowireCapableBeanFactory{
-# createBean(String beanName, BeanDefinition beanDefinition, Object[] args)
-# createBeanInstance(BeanDefinition beanDefinition, String beanName, Object[] args)
-# applyPropertyValues(String beanName, Object bean, BeanDefinition beanDefinition)
-}
-
-AbstractAutowireCapableBeanFactory -- BeanReference
-AbstractAutowireCapableBeanFactory -- BeanDefinition
+ConfigurableListableBeanFactory --> ConfigurableBeanFactory:继承
+ConfigurableListableBeanFactory --> AutowireCapableBeanFactory:继承
+ConfigurableListableBeanFactory --> ListableBeanFactory:继承
+ConfigurableBeanFactory-->HierarchicalBeanFactory:继承
+HierarchicalBeanFactory --> BeanFactory:继承
+ListableBeanFactory --> BeanFactory:继承
+AutowireCapableBeanFactory --> BeanFactory:继承
 @enduml

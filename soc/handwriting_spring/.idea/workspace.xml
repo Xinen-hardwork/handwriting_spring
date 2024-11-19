@@ -5,12 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65ef794d-a802-48f9-851e-1693d3781df4" name="更改" comment="creat source code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/BeansException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/PropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/PropertyValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/ConfigurableListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/HierarchicalBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/ListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/config/AutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/config/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/config/BeanReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/config/ConfigurableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/config/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/io/ClassPathResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/io/DefaultResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/io/FileSystemResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/io/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/io/ResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/io/UrlResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/support/AbstractBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/support/BeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/support/InstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/factory/util/ClassUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/test/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/test/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/test/important.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/test/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/xinen/ResourceLoader/test/testApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../doc/1IOC容器.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../doc/1IOC容器.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/BeanDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/BeanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/test/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/test/teat_BeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/BeansException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/BeansException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/PropertyValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/PropertyValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/PropertyValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/PropertyValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/factory/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/factory/config/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/factory/config/BeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/factory/config/BeanReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/factory/config/BeanReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/factory/config/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/factory/config/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/factory/config/SingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/factory/support/AbstractBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/factory/support/BeanDefinitionRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/factory/support/CglibSubclassingInstantiationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/factory/support/DefaultListableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/factory/support/InstantiationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/factory/support/InstantiationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/factory/support/SimpleInstantiationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/test/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/test/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/test/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/test/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/ioc/test/test_BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/di/test/test_BeanFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/xinen/u" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/xinen/u" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +101,17 @@
     "JUnit.ApiTest.test1 (1).executor": "Run",
     "JUnit.ApiTest.test1.executor": "Run",
     "JUnit.teat_BeanFactory.test1.executor": "Run",
+    "JUnit.testApi.test_BeanFactory.executor": "Run",
+    "JUnit.testApi.test_classpath.executor": "Run",
+    "JUnit.testApi.test_file.executor": "Run",
+    "JUnit.testApi.test_xml.executor": "Run",
     "JUnit.test_BeanFactory.test1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/books/handwriting_spring/doc/img",
+    "last_opened_file_path": "E:/books/handwriting_spring/soc/handwriting_spring/src/main/java/org/xinen/ResourceLoader",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,53 +125,70 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\books\handwriting_spring\soc\handwriting_spring\src\main\java\org\xinen\ResourceLoader" />
       <recent name="E:\books\handwriting_spring\soc\handwriting_spring\src\main\java\org\xinen\proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test_BeanFactory.test1">
-    <configuration name="ApiTest.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.testApi.test_xml">
+    <configuration name="testApi.test_BeanFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="handwriting_spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.xinen.proxy.test.*" />
+          <option name="PATTERN" value="org.xinen.ResourceLoader.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.xinen.proxy.test" />
-      <option name="MAIN_CLASS_NAME" value="org.xinen.proxy.test.ApiTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="org.xinen.ResourceLoader.test" />
+      <option name="MAIN_CLASS_NAME" value="org.xinen.ResourceLoader.test.testApi" />
+      <option name="METHOD_NAME" value="test_BeanFactory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testApi.test_classpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="handwriting_spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.xinen.improveBean.test.*" />
+          <option name="PATTERN" value="org.xinen.ResourceLoader.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.xinen.improveBean.test" />
-      <option name="MAIN_CLASS_NAME" value="org.xinen.improveBean.test.ApiTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="org.xinen.ResourceLoader.test" />
+      <option name="MAIN_CLASS_NAME" value="org.xinen.ResourceLoader.test.testApi" />
+      <option name="METHOD_NAME" value="test_classpath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="teat_BeanFactory.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testApi.test_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="handwriting_spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.xinen.easyBean.test.*" />
+          <option name="PATTERN" value="org.xinen.ResourceLoader.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.xinen.easyBean.test" />
-      <option name="MAIN_CLASS_NAME" value="org.xinen.easyBean.test.teat_BeanFactory" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="org.xinen.ResourceLoader.test" />
+      <option name="MAIN_CLASS_NAME" value="org.xinen.ResourceLoader.test.testApi" />
+      <option name="METHOD_NAME" value="test_file" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testApi.test_xml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="handwriting_spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.xinen.ResourceLoader.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.xinen.ResourceLoader.test" />
+      <option name="MAIN_CLASS_NAME" value="org.xinen.ResourceLoader.test.testApi" />
+      <option name="METHOD_NAME" value="test_xml" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,12 +198,12 @@
       <module name="handwriting_spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.xinen.ioc.test.*" />
+          <option name="PATTERN" value="org.xinen.di.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.xinen.ioc.test" />
-      <option name="MAIN_CLASS_NAME" value="org.xinen.ioc.test.test_BeanFactory" />
+      <option name="MAIN_CLASS_NAME" value="org.xinen.di.test.test_BeanFactory" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -142,14 +212,35 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testApi.test_xml" />
+        <item itemvalue="JUnit.testApi.test_file" />
+        <item itemvalue="JUnit.testApi.test_classpath" />
+        <item itemvalue="JUnit.testApi.test_BeanFactory" />
         <item itemvalue="JUnit.test_BeanFactory.test1" />
-        <item itemvalue="JUnit.ApiTest.test1 (1)" />
-        <item itemvalue="JUnit.ApiTest.test1" />
-        <item itemvalue="JUnit.teat_BeanFactory.test1" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-4caba194b151-f504ca98" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="65ef794d-a802-48f9-851e-1693d3781df4" name="更改" comment="creat source code" />
+      <created>1731939260098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731939260098</updated>
+      <workItem from="1731939263119" duration="4431000" />
+      <workItem from="1732022219404" duration="7833000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
